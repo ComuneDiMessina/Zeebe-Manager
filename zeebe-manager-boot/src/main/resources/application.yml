@@ -1,0 +1,14 @@
+# Spring Boot configuration
+spring:
+  profiles:
+    active: development
+
+repo:
+  path: /tmp/zeebe-manager-be/git
+
+zeebe:
+  client:
+    broker:
+      contactPoint: "127.0.0.1:26500"
+    security:
+      plaintext: true
